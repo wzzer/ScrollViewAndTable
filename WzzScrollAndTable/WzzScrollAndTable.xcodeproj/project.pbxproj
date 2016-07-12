@@ -12,6 +12,12 @@
 		510895551D348973005694F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510895541D348973005694F8 /* Assets.xcassets */; };
 		510895581D348973005694F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510895561D348973005694F8 /* LaunchScreen.storyboard */; };
 		510895641D348B46005694F8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510895631D348B46005694F8 /* HomeViewController.m */; };
+		510895681D348D9C005694F8 /* UIView+WzzSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 510895671D348D9C005694F8 /* UIView+WzzSize.m */; };
+		5108956E1D348EDB005694F8 /* GestureRecognizerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5108956D1D348EDB005694F8 /* GestureRecognizerController.m */; };
+		510895711D3490D4005694F8 /* WZZOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510895701D3490D4005694F8 /* WZZOneController.m */; };
+		510895741D3490E7005694F8 /* WZZTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510895731D3490E7005694F8 /* WZZTwoController.m */; };
+		510895771D3490F8005694F8 /* WZZThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510895761D3490F8005694F8 /* WZZThreeController.m */; };
+		5108957A1D349106005694F8 /* WZZFourController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510895791D349106005694F8 /* WZZFourController.m */; };
 		ECEB40A8733F24DE4CA81A88 /* libPods-WzzScrollAndTable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97ED5AAA7BB44723B34E4C85 /* libPods-WzzScrollAndTable.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +33,18 @@
 		510895591D348973005694F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		510895621D348B46005694F8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		510895631D348B46005694F8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		510895661D348D9C005694F8 /* UIView+WzzSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WzzSize.h"; sourceTree = "<group>"; };
+		510895671D348D9C005694F8 /* UIView+WzzSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WzzSize.m"; sourceTree = "<group>"; };
+		5108956C1D348EDB005694F8 /* GestureRecognizerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureRecognizerController.h; sourceTree = "<group>"; };
+		5108956D1D348EDB005694F8 /* GestureRecognizerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureRecognizerController.m; sourceTree = "<group>"; };
+		5108956F1D3490D4005694F8 /* WZZOneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZOneController.h; sourceTree = "<group>"; };
+		510895701D3490D4005694F8 /* WZZOneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZOneController.m; sourceTree = "<group>"; };
+		510895721D3490E7005694F8 /* WZZTwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZTwoController.h; sourceTree = "<group>"; };
+		510895731D3490E7005694F8 /* WZZTwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZTwoController.m; sourceTree = "<group>"; };
+		510895751D3490F8005694F8 /* WZZThreeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZThreeController.h; sourceTree = "<group>"; };
+		510895761D3490F8005694F8 /* WZZThreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZThreeController.m; sourceTree = "<group>"; };
+		510895781D349106005694F8 /* WZZFourController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZFourController.h; sourceTree = "<group>"; };
+		510895791D349106005694F8 /* WZZFourController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZFourController.m; sourceTree = "<group>"; };
 		97ED5AAA7BB44723B34E4C85 /* libPods-WzzScrollAndTable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WzzScrollAndTable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +103,7 @@
 		5108955F1D348B03005694F8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				510895651D348D7B005694F8 /* Category */,
 				510895611D348B26005694F8 /* View */,
 				510895601D348B17005694F8 /* Controller */,
 			);
@@ -96,6 +115,8 @@
 			children = (
 				510895621D348B46005694F8 /* HomeViewController.h */,
 				510895631D348B46005694F8 /* HomeViewController.m */,
+				5108956C1D348EDB005694F8 /* GestureRecognizerController.h */,
+				5108956D1D348EDB005694F8 /* GestureRecognizerController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -103,8 +124,25 @@
 		510895611D348B26005694F8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5108956F1D3490D4005694F8 /* WZZOneController.h */,
+				510895701D3490D4005694F8 /* WZZOneController.m */,
+				510895721D3490E7005694F8 /* WZZTwoController.h */,
+				510895731D3490E7005694F8 /* WZZTwoController.m */,
+				510895751D3490F8005694F8 /* WZZThreeController.h */,
+				510895761D3490F8005694F8 /* WZZThreeController.m */,
+				510895781D349106005694F8 /* WZZFourController.h */,
+				510895791D349106005694F8 /* WZZFourController.m */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		510895651D348D7B005694F8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				510895661D348D9C005694F8 /* UIView+WzzSize.h */,
+				510895671D348D9C005694F8 /* UIView+WzzSize.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 		EE95C50715A465442A6AB02E /* Frameworks */ = {
@@ -245,7 +283,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5108954D1D348973005694F8 /* AppDelegate.m in Sources */,
+				510895741D3490E7005694F8 /* WZZTwoController.m in Sources */,
+				5108956E1D348EDB005694F8 /* GestureRecognizerController.m in Sources */,
+				5108957A1D349106005694F8 /* WZZFourController.m in Sources */,
+				510895681D348D9C005694F8 /* UIView+WzzSize.m in Sources */,
 				5108954A1D348973005694F8 /* main.m in Sources */,
+				510895711D3490D4005694F8 /* WZZOneController.m in Sources */,
+				510895771D3490F8005694F8 /* WZZThreeController.m in Sources */,
 				510895641D348B46005694F8 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
